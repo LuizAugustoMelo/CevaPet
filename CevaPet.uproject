@@ -7,19 +7,32 @@
 		{
 			"Name": "CevaPet",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
+		{
+			"Name": "OculusVR",
+			"Enabled": false
+		},
 		{
 			"Name": "SteamVR",
 			"Enabled": false
 		},
 		{
-			"Name": "OculusVR",
+			"Name": "DatasmithContent",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemGoogle",
+			"Enabled": true
+		},
+		{
+			"Name": "WindowsMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "LinuxDeviceProfileSelector",
 			"Enabled": false
 		},
 		{
@@ -27,8 +40,9 @@
 			"Enabled": false
 		},
 		{
-			"Name": "ActorSequenceEditor",
-			"Enabled": true
+			"Name": "VaRestPlugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f"
 		}
 	]
 }
